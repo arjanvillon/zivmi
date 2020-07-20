@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zivmi/precache-manifest.65d42edb25168f2c6d535910f4f92bf3.js"
+  "/zivmi/precache-manifest.31551c2d091a1d1979c314a5bb94ec4f.js"
 );
 
 self.addEventListener('message', (event) => {
