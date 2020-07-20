@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/zivmi/static/css/main.077252ab.chunk.css",
+    "main.js": "/zivmi/static/js/main.85a0c19f.chunk.js",
+    "main.js.map": "/zivmi/static/js/main.85a0c19f.chunk.js.map",
+    "runtime-main.js": "/zivmi/static/js/runtime-main.fd7caec9.js",
+    "runtime-main.js.map": "/zivmi/static/js/runtime-main.fd7caec9.js.map",
+    "static/js/2.35c3e93c.chunk.js": "/zivmi/static/js/2.35c3e93c.chunk.js",
+    "static/js/2.35c3e93c.chunk.js.map": "/zivmi/static/js/2.35c3e93c.chunk.js.map",
+    "index.html": "/zivmi/index.html",
+    "precache-manifest.d72e45b9d7b624dfdf5f277482574de9.js": "/zivmi/precache-manifest.d72e45b9d7b624dfdf5f277482574de9.js",
+    "service-worker.js": "/zivmi/service-worker.js",
+    "static/css/main.077252ab.chunk.css.map": "/zivmi/static/css/main.077252ab.chunk.css.map",
+    "static/js/2.35c3e93c.chunk.js.LICENSE.txt": "/zivmi/static/js/2.35c3e93c.chunk.js.LICENSE.txt",
+    "static/media/apple_button.svg": "/zivmi/static/media/apple_button.ab66db34.svg",
+    "static/media/egypt.svg": "/zivmi/static/media/egypt.98f7dcbe.svg",
+    "static/media/google_button.svg": "/zivmi/static/media/google_button.3d03a06f.svg",
+    "static/media/person1.png": "/zivmi/static/media/person1.8dd13334.png",
+    "static/media/person2.png": "/zivmi/static/media/person2.d2be1423.png",
+    "static/media/person3.png": "/zivmi/static/media/person3.f0403223.png",
+    "static/media/person4.png": "/zivmi/static/media/person4.3fa2bc18.png",
+    "static/media/person5.png": "/zivmi/static/media/person5.5f98edca.png",
+    "static/media/phone1x2.png": "/zivmi/static/media/phone1x2.197876d6.png",
+    "static/media/phone2x2.png": "/zivmi/static/media/phone2x2.be2bf95a.png",
+    "static/media/phone3x2.png": "/zivmi/static/media/phone3x2.eecaade6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd7caec9.js",
+    "static/js/2.35c3e93c.chunk.js",
+    "static/css/main.077252ab.chunk.css",
+    "static/js/main.85a0c19f.chunk.js"
+  ]
+}
