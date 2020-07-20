@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a5b2cf2d424e07abbd29ab7053b936c",
+    "revision": "afb76181f4d34ca33101a0cab4da72a2",
     "url": "/zivmi/index.html"
   },
   {
-    "revision": "6f525156ceb36fa15b1b",
-    "url": "/zivmi/static/css/main.077252ab.chunk.css"
+    "revision": "4eb61f383d8bcf8ef11c",
+    "url": "/zivmi/static/css/main.dba82fb4.chunk.css"
   },
   {
     "revision": "9992ad5efdb1b1e00a6d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zivmi/static/js/2.35c3e93c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f525156ceb36fa15b1b",
+    "revision": "4eb61f383d8bcf8ef11c",
     "url": "/zivmi/static/js/main.85a0c19f.chunk.js"
   },
   {
