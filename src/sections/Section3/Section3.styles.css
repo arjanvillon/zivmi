@@ -1,0 +1,103 @@
+#section3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 5vh 0;
+  height: 80vh;
+  overflow-x: hidden;
+}
+
+#section3 .payments {
+  margin: auto;
+  max-width: 60%;
+}
+
+#section3 .payments-sample {
+  position: relative;
+}
+
+#section3 .payments-sample .circle {
+  position: relative;
+  width: 125%;
+  height: 100%;
+  padding-bottom: 50%;
+  background: #1089ff;
+  border-radius: 50%;
+}
+
+#section3 .payments-sample .circle .transaction-sample {
+  position: absolute;
+  top: 20%;
+  right: 60%;
+  z-index: 2;
+}
+
+@media (max-width: 1280px) {
+  #section3 .payments {
+    max-width: 75%;
+  }
+
+  #section3 .payments-sample .circle {
+    width: 155%;
+  }
+
+  #section3 .payments-sample .circle .transaction-sample {
+    right: 55%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #section3 {
+    height: 100%;
+    margin: 15rem 0;
+  }
+
+  #section3 .payments {
+    max-width: 85%;
+  }
+
+  #section3 .payments-sample .circle {
+    margin-left: 48%;
+    width: 45rem;
+    padding-bottom: 50rem;
+  }
+}
+
+@media (max-width: 960px) {
+  #section3 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  #section3 .payments-sample {
+    margin: 3rem 0;
+  }
+
+  #section3 .payments-sample .circle {
+    margin-left: 45%;
+    width: 65rem;
+    padding-bottom: 60rem;
+  }
+
+  #section3 .payments-sample .circle .transaction-sample {
+    top: 15%;
+    right: 50%;
+    z-index: 2;
+  }
+
+  #section3 .payments {
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 640px) {
+  #section3 .payments-sample .circle {
+    margin-left: 25%;
+    width: 65rem;
+    padding-bottom: 60rem;
+  }
+
+  #section3 .payments {
+    max-width: 90%;
+  }
+}

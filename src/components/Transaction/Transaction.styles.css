@@ -1,0 +1,68 @@
+.transaction {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-user {
+  text-align: center;
+}
+
+.transaction-user img {
+  margin: 1.5rem auto;
+  display: block;
+  width: 40%;
+  height: 40%;
+}
+.transaction-user small {
+  color: #5e5e5e;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.transaction-details {
+  margin: 3rem 0;
+}
+
+.transaction-details .line-break:last-child {
+  display: none;
+}
+
+.transaction-detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+}
+
+.transaction-detail .transaction-amount p {
+  color: #5e5e5e;
+  font-size: 1.5rem;
+}
+
+.transaction-detail .transaction-amount h4 {
+  color: #234065;
+  font-size: 1.75rem;
+}
+
+.transaction-detail .transaction-currency {
+  display: flex;
+  margin: auto 0;
+}
+
+.transaction-detail .transaction-currency img {
+  width: 4rem;
+  margin: 0 1rem;
+}
+
+.transaction-detail .transaction-currency h4 {
+  color: #000;
+  font-size: 1.75rem;
+}
+
+@media (max-width: 640px) {
+  .transaction-user img {
+    margin: 1rem auto;
+    display: block;
+    width: 40%;
+    height: 40%;
+  }
+}

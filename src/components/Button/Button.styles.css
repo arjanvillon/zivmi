@@ -1,0 +1,36 @@
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 1.5rem 2rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 8px 15px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.25s;
+}
+
+button:hover,
+button:focus {
+  box-shadow: 0px 8px 12px 4px rgb(0, 0, 0, 0.3);
+  transform: translateY(-0.25rem);
+}
+
+.btn-primary {
+  background-color: #1089ff;
+}
+
+.btn-accent {
+  background-color: #ffa900;
+}
+
+.btn-dark {
+  background-color: #192a41;
+}
+
+.btn-long {
+  width: 20rem;
+}

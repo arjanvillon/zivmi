@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+}
+
+@media (max-width: 640px) {
+  nav {
+    padding: 2.5rem;
+  }
+}

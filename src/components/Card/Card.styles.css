@@ -1,0 +1,86 @@
+.card {
+  background: #fff;
+}
+
+.small-card {
+  width: 40rem;
+  margin: 1.5rem 4rem;
+  padding: 7rem 3rem;
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.small-card:hover,
+.small-card:active {
+  -webkit-box-shadow: 5px 5px 58px 5px rgba(227, 241, 255, 1);
+  -moz-box-shadow: 5px 5px 58px 5px rgba(227, 241, 255, 1);
+  box-shadow: 5px 5px 58px 5px rgba(227, 241, 255, 1);
+}
+
+.small-card h2 {
+  font-size: 5rem;
+  color: #1089ff;
+  font-weight: bold;
+}
+
+.small-card h3 {
+  font-size: 2rem;
+  color: #234065;
+  margin: 1rem;
+}
+
+.small-card p {
+  font-size: 1.5rem;
+  color: #234065;
+}
+
+.small-card .oval {
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+  right: 7%;
+  top: -30%;
+  width: 11.5rem;
+  height: 35rem;
+  background-color: rgba(16, 137, 255, 0.1);
+  transform: rotate(75deg);
+  -webkit-border-radius: 63px 63px 63px 63px/ 108px 108px 72px 72px;
+  border-radius: 50% 50%;
+}
+
+.small-card:hover .oval,
+.small-card:active .oval {
+  visibility: visible;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.big-card {
+  width: 40rem;
+  border-radius: 1rem;
+  padding: 4rem 5rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+@media (max-width: 1024px) {
+  .big-card {
+    width: 30rem;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .big-card {
+    padding: 2rem 3rem;
+  }
+}

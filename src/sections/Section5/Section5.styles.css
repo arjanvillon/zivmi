@@ -1,0 +1,34 @@
+#section5 {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: #1089ff;
+  padding: 10rem 0;
+}
+
+#section5 p {
+  color: #fff;
+  font-size: 1.5rem;
+  max-width: 50rem;
+  margin: 5rem 0;
+}
+
+#section5 form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 2rem;
+  padding: 1rem;
+}
+
+@media (max-width: 640px) {
+  #section5 {
+    padding: 2rem;
+  }
+
+  #section5 form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

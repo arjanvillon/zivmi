@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 960px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 48%;
+  }
+}

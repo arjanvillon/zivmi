@@ -1,0 +1,176 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7rem;
+  height: 100vh;
+}
+
+header .intro {
+  margin: auto 0;
+  width: 50%;
+}
+
+header .intro h1 {
+  font-size: 9rem;
+  line-height: 1.25;
+}
+
+header .intro p {
+  color: #5e5e5e;
+  font-size: 2.25rem;
+  margin: 3rem 0 5rem 0;
+  text-align: justify;
+}
+
+.stores {
+  display: flex;
+  margin: auto 0;
+}
+
+.stores img {
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+.stores .store-1 {
+  width: 20rem;
+  margin-right: 2rem;
+}
+
+.stores .store-2 {
+  width: 20rem;
+}
+
+.phones {
+  display: flex;
+  position: relative;
+  width: 50%;
+}
+
+.phones .phone-1 {
+  z-index: 2;
+  height: 100%;
+}
+
+.phones .phone-2 {
+  position: absolute;
+  top: -4%;
+  left: 25%;
+  z-index: 1;
+  height: 108%;
+}
+
+@media (max-width: 1280px) {
+  header .intro {
+    width: 50%;
+  }
+
+  header .phones .phone-1 {
+    position: absolute;
+    top: -3%;
+    left: -20%;
+  }
+  header .phones .phone-2 {
+    height: 105%;
+    top: -5%;
+    left: 13%;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column-reverse;
+  }
+
+  header .intro {
+    width: 100%;
+    height: 40%;
+  }
+
+  header .phones {
+    width: 100%;
+    height: 60%;
+  }
+
+  header .phones .phone-1 {
+    position: absolute;
+    top: 3%;
+    left: -17%;
+  }
+  header .phones .phone-2 {
+    top: -1%;
+    left: 3%;
+  }
+}
+
+@media (max-width: 960px) {
+  header .intro {
+    width: 100%;
+    height: 50%;
+  }
+
+  header .phones {
+    width: 100%;
+    height: 50%;
+  }
+
+  header .phones .phone-1 {
+    position: absolute;
+    top: 3%;
+    left: -17%;
+  }
+  header .phones .phone-2 {
+    top: -1%;
+    left: 3%;
+  }
+}
+
+@media (max-width: 640px) {
+  header {
+    padding: 0 2.5rem;
+    height: 100vh;
+  }
+
+  header .intro {
+    width: 100%;
+    height: 60%;
+    margin: 0;
+  }
+
+  header .intro h1 {
+    font-size: 6rem;
+  }
+
+  header .intro p {
+    margin: 3rem 0;
+  }
+
+  .stores {
+    justify-content: flex-start;
+  }
+
+  .stores img {
+    width: 90%;
+  }
+
+  .stores .store-1 {
+    margin: 0;
+  }
+
+  .phones {
+    width: 100%;
+    height: 40%;
+  }
+
+  .phones .phone-1 {
+    top: 7%;
+    left: -15%;
+  }
+
+  .phones .phone-2 {
+    top: 3%;
+    left: 3%;
+    height: 108%;
+  }
+}

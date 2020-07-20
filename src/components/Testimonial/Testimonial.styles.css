@@ -1,0 +1,56 @@
+.testimonial {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.testimonial img {
+  width: 40%;
+  height: 40%;
+  margin: 2rem auto 5rem auto;
+  transition: all 0.5s ease;
+}
+
+.testimonial img:hover {
+  width: 50%;
+  height: auto;
+}
+
+.testimonial .testimonial-text {
+  visibility: hidden;
+}
+
+.testimonial img:hover + .testimonial-text,
+.testimonial img:active + .testimonial-text {
+  visibility: visible;
+  animation: fadeIn 0.75s ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.testimonial .testimonial-text p {
+  font-size: 1.5rem;
+  color: #5e5e5e;
+  margin: 2rem 0;
+}
+
+.testimonial .testimonial-text h5 {
+  font-size: 1.75rem;
+  color: #234065;
+}
+
+@media (max-width: 1024px) {
+  .testimonial .testimonial-text {
+    visibility: visible;
+    padding: 0 3rem;
+  }
+}
