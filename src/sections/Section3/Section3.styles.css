@@ -3,7 +3,6 @@
   grid-template-columns: 2fr 1fr;
   margin: 5vh 0;
   height: 80vh;
-  overflow-x: hidden;
 }
 
 #section3 .payments {

@@ -49,7 +49,9 @@ export const Section4 = () => {
 
   return (
     <section id="section4">
-      <Title title="Testimonial" subtitle="What People Say About Us" />
+      <div className="title-container">
+        <Title title="Testimonial" subtitle="What People Say About Us" />
+      </div>
       <div className="testimonials-container">
         {testimonials.map((testimonial) => {
           const { id, image, name, text } = testimonial;

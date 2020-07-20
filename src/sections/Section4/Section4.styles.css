@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+#section4 .title-container {
+  padding: 0 5rem;
+}
+
 #section4 .testimonials-container {
   padding: 10rem;
   display: grid;
